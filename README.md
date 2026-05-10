@@ -61,10 +61,13 @@ Proyecto en construcción activa. Este README va a evolucionar a medida que avan
 - Diseño del schema de base de datos
 - Bot de Telegram operativo (`@CinematiBot`)
 - Workflow Router con manejo de 5 comandos + fallback elegante
-- Onboarding del usuario nuevo (mensaje de `/start` + menú nativo de comandos)
+- **Sub-workflow `Cinemati - Registro` (publicado v2.1)**
+  - Onboarding limpio para usuarios nuevos
+  - Validación con AI de mensajes en formato libre
+  - Detección de duplicados contra Google Sheets
+  - Manejo de 4 escenarios distintos con mensajes específicos
 
 **En desarrollo:**
-- Sub-workflow `Cinemati - Registro`
 - Sub-workflow `Cinemati - Agregar` (con integración TMDB)
 - Sub-workflow `Cinemati - Sesión` (matchmaking con Claude)
 - Sub-workflow `Cinemati - Votación` (manejo de estado asíncrono)
